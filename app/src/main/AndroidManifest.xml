@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.blindgamefinal">
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <queries>
+        <package android:name="com.google.android.googlequicksearchbox" />
+
+        <intent>
+            <action android:name="android.speech.RecognitionService" />
+        </intent>
+    </queries>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BlindGameFinal">
+        <activity
+            android:name=".instruction"
+            android:exported="false"
+            android:label="@string/title_activity_instruction"
+            android:theme="@style/Theme.BlindGameFinal.NoActionBar" />
+        <activity
+            android:name=".story3l3op_2"
+            android:exported="false"
+            android:label="@string/title_activity_story3l3op2"
+            android:theme="@style/Theme.BlindGameFinal.NoActionBar" />
+        <activity
+            android:name=".signup_in"
+            android:exported="false"
+            android:label="@string/title_activity_signup_in"
+            android:theme="@style/Theme.BlindGameFinal.NoActionBar" />
+        <activity
+            android:name=".login"
+            android:exported="false"
+            android:label="@string/title_activity_login"
+            android:theme="@style/Theme.BlindGameFinal.NoActionBar" />
+        <activity
+            android:name=".signup"
+            android:exported="false"
+            android:label="@string/title_activity_signup"
+            android:theme="@style/Theme.BlindGameFinal.NoActionBar" />
+        <activity
+            android:name=".Story3l3op3"
+            android:label="@string/title_activity_story3l3op3"
+            android:theme="@style/Theme.BlindGameFinal.NoActionBar" />
+        <activity
+            android:name=".Story3l3op1"
+            android:label="@string/title_activity_story3l3op1"
+            android:theme="@style/Theme.BlindGameFinal.NoActionBar" />
+        <activity
+            android:name=".Story3seg1o3_op1"
+            android:label="@string/title_activity_story3seg1o3_op1"
+            android:theme="@style/Theme.BlindGameFinal.NoActionBar" />
+        <activity
+            android:name=".Story3seg1out2_next"
+            android:label="@string/title_activity_story3seg1out2_next"
+            android:theme="@style/Theme.BlindGameFinal.NoActionBar" />
+        <activity
+            android:name=".Story3seg1_Out3"
+            android:label="@string/title_activity_story3seg1__out3"
+            android:theme="@style/Theme.BlindGameFinal.NoActionBar" />
+        <activity
+            android:name=".Story3seg1_Out2"
+            android:label="@string/title_activity_story3seg1__out2"
+            android:theme="@style/Theme.BlindGameFinal.NoActionBar" />
+        <activity
+            android:name=".Story3seg1_Out1"
+            android:label="@string/title_activity_story3seg1__out1"
+            android:theme="@style/Theme.BlindGameFinal.NoActionBar" />
+        <activity
+            android:name=".Story3Seg1"
+            android:label="@string/title_activity_story3_seg1"
+            android:theme="@style/Theme.BlindGameFinal.NoActionBar" />
+        <activity
+            android:name=".story2seg15"
+            android:label="@string/title_activity_story2seg15"
+            android:theme="@style/Theme.BlindGameFinal.NoActionBar" />
+        <activity
+            android:name=".story2seg14"
+            android:label="@string/title_activity_story2seg14"
+            android:theme="@style/Theme.BlindGameFinal.NoActionBar" />
+        <activity
+            android:name=".story2seg13"
+            android:label="@string/title_activity_story2seg13"
+            android:theme="@style/Theme.BlindGameFinal.NoActionBar" />
+        <activity
+            android:name=".story2seg12"
+            android:label="@string/title_activity_story2seg12"
+            android:theme="@style/Theme.BlindGameFinal.NoActionBar" />
+        <activity
+            android:name=".story2seg11"
+            android:label="@string/title_activity_story2seg11"
+            android:theme="@style/Theme.BlindGameFinal.NoActionBar" />
+        <activity
+            android:name=".story2seg10"
+            android:label="@string/title_activity_story2seg10"
+            android:theme="@style/Theme.BlindGameFinal.NoActionBar" />
+        <activity
+            android:name=".story2seg9"
+            android:label="@string/title_activity_story2seg9"
+            android:theme="@style/Theme.BlindGameFinal.NoActionBar" />
+        <activity
+            android:name=".story2seg8"
+            android:label="@string/title_activity_story2seg8"
+            android:theme="@style/Theme.BlindGameFinal.NoActionBar" />
+        <activity
+            android:name=".story2seg5"
+            android:label="@string/title_activity_story2seg5"
+            android:theme="@style/Theme.BlindGameFinal.NoActionBar" />
+        <activity
+            android:name=".story2_seg4"
+            android:label="@string/title_activity_story2_seg4"
+            android:theme="@style/Theme.BlindGameFinal.NoActionBar" />
+        <activity
+            android:name=".Story2seg7"
+            android:label="@string/title_activity_story2seg7"
+            android:theme="@style/Theme.BlindGameFinal.NoActionBar" />
+        <activity
+            android:name=".Story2seg6"
+            android:label="@string/title_activity_story2seg6"
+            android:theme="@style/Theme.BlindGameFinal.NoActionBar" />
+        <activity
+            android:name=".Story2_out2"
+            android:label="@string/title_activity_story2_out2"
+            android:theme="@style/Theme.BlindGameFinal.NoActionBar" />
+        <activity
+            android:name=".Story2_out1"
+            android:label="@string/title_activity_story2_out1"
+            android:theme="@style/Theme.BlindGameFinal.NoActionBar" />
+        <activity
+            android:name=".Story2seg1"
+            android:label="@string/title_activity_story2seg1"
+            android:theme="@style/Theme.BlindGameFinal.NoActionBar" />
+        <activity android:name=".Seg4Out3" />
+        <activity android:name=".Seg4Out2" />
+        <activity android:name=".Seg4Out1" />
+        <activity android:name=".Segment4" />
+        <activity
+            android:name=".Seg3Out3"
+            android:label="@string/title_activity_seg3_out3"
+            android:theme="@style/Theme.BlindGameFinal.NoActionBar" />
+        <activity
+            android:name=".Seg3Out2"
+            android:label="@string/title_activity_seg3_out2"
+            android:theme="@style/Theme.BlindGameFinal.NoActionBar" />
+        <activity
+            android:name=".Seg3Out1"
+            android:label="@string/title_activity_seg3_out1"
+            android:theme="@style/Theme.BlindGameFinal.NoActionBar" />
+        <activity
+            android:name=".Segment3"
+            android:label="@string/title_activity_segment3"
+            android:theme="@style/Theme.BlindGameFinal.NoActionBar" />
+        <activity
+            android:name=".Seg2Out2"
+            android:label="@string/title_activity_seg2_out2"
+            android:theme="@style/Theme.BlindGameFinal.NoActionBar" />
+        <activity
+            android:name=".Seg2Out1"
+            android:label="@string/title_activity_seg2_out1"
+            android:theme="@style/Theme.BlindGameFinal.NoActionBar" />
+        <activity
+            android:name=".Segmen2"
+            android:label="@string/title_activity_segmen2"
+            android:theme="@style/Theme.BlindGameFinal.NoActionBar" />
+        <activity
+            android:name=".Seg1Out3"
+            android:label="@string/title_activity_seg1_out3"
+            android:theme="@style/Theme.BlindGameFinal.NoActionBar" />
+        <activity
+            android:name=".Seg1Out2"
+            android:label="@string/title_activity_seg1_out2"
+            android:theme="@style/Theme.BlindGameFinal.NoActionBar" />
+        <activity
+            android:name=".Seg1Out1"
+            android:label="@string/title_activity_seg1_out1"
+            android:theme="@style/Theme.BlindGameFinal.NoActionBar" />
+        <activity
+            android:name=".StarGame1"
+            android:label="@string/title_activity_star_game1"
+            android:theme="@style/Theme.BlindGameFinal.NoActionBar" />
+        <activity
+            android:name=".GameOption"
+            android:label="@string/title_activity_game_option"
+            android:theme="@style/Theme.BlindGameFinal.NoActionBar" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.speech.RecognitionService" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

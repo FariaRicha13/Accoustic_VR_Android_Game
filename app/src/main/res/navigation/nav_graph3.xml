@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph3"
+    app:startDestination="@id/First41Fragment">
+
+    <fragment
+        android:id="@+id/First41Fragment"
+        android:name="com.example.blindgamefinal.First41Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first41">
+
+        <action
+            android:id="@+id/action_First41Fragment_to_Second41Fragment"
+            app:destination="@id/Second41Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second41Fragment"
+        android:name="com.example.blindgamefinal.Second41Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second41">
+
+        <action
+            android:id="@+id/action_Second41Fragment_to_First41Fragment"
+            app:destination="@id/First41Fragment" />
+    </fragment>
+</navigation>

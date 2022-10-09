@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">BlindGameFinal</string>
+    <string name="title_activity_game_option">GameOption</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_star_game1">StarGame1</string>
+    <string name="title_activity_seg1_out1">Seg1Out1</string>
+    <string name="title_activity_seg1_out2">Seg1Out2</string>
+    <string name="title_activity_seg1_out3">Seg1Out3</string>
+    <string name="title_activity_segmen2">Segmen2</string>
+    <string name="title_activity_seg2_out1">Seg2Out1</string>
+    <string name="title_activity_seg2_out2">Seg2Out2</string>
+    <string name="title_activity_segment3">Segment3</string>
+    <string name="title_activity_seg3_out1">Seg3Out1</string>
+    <string name="title_activity_seg3_out2">Seg3Out2</string>
+    <string name="title_activity_seg3_out3">Seg3Out3</string>
+    <string name="title_activity_story2seg1">Story2seg1</string>
+    <string name="title_activity_story2_out1">Story2_out1</string>
+    <string name="title_activity_story2_out2">Story2_out2</string>
+    <string name="title_activity_story2_seg3">story2_seg3</string>
+    <string name="title_activity_story2seg6">Story2seg6</string>
+    <string name="title_activity_story2seg7">Story2seg7</string>
+    <string name="title_activity_story2_seg4">story2_seg4</string>
+    <string name="title_activity_story2seg5">story2seg5</string>
+    <string name="title_activity_story2seg8">story2seg8</string>
+    <string name="title_activity_story2seg9">story2seg9</string>
+    <string name="title_activity_story2seg10">story2seg10</string>
+    <string name="title_activity_story2seg11">story2seg11</string>
+    <string name="title_activity_story2seg12">story2seg12</string>
+    <string name="title_activity_story2seg13">story2seg13</string>
+    <string name="title_activity_story2seg14">story2seg14</string>
+    <string name="title_activity_story2seg15">story2seg15</string>
+    <string name="title_activity_story3_seg1">Story3Seg1</string>
+    <string name="title_activity_story3seg1__out1">Story3seg1_Out1</string>
+    <string name="title_activity_story3seg1__out2">Story3seg1_Out2</string>
+    <string name="title_activity_story3seg1__out3">Story3seg1_Out3</string>
+    <string name="title_activity_story3seg1out2_next">Story3seg1out2_next</string>
+    <string name="title_activity_story3seg1o3_op1">Story3seg1o3_op1</string>
+    <string name="title_activity_story3seg1o3op2">Story3seg1o3op2</string>
+    <string name="title_activity_story3l3op1">Story3l3op1</string>
+    <string name="title_activity_story3l3op3">Story3l3op3</string>
+    <string name="title_activity_signup">signup</string>
+    <string name="title_activity_login">login</string>
+    <string name="title_activity_signup_in">signup_in</string>
+    <string name="title_activity_story3l3_op2">story3l3_op2</string>
+    <string name="title_activity_story3l3op2">story3l3op_2</string>
+    <string name="title_activity_instruction">instruction</string>
+</resources>

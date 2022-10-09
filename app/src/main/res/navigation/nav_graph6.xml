@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph6"
+    app:startDestination="@id/First44Fragment">
+
+    <fragment
+        android:id="@+id/First44Fragment"
+        android:name="com.example.blindgamefinal.First44Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first44">
+
+        <action
+            android:id="@+id/action_First44Fragment_to_Second44Fragment"
+            app:destination="@id/Second44Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second44Fragment"
+        android:name="com.example.blindgamefinal.Second44Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second44">
+
+        <action
+            android:id="@+id/action_Second44Fragment_to_First44Fragment"
+            app:destination="@id/First44Fragment" />
+    </fragment>
+</navigation>

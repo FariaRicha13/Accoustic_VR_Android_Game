@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "522082885168",
+    "project_id": "blindgamefinal",
+    "storage_bucket": "blindgamefinal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:522082885168:android:1e7b24c489f83cf7d557f5",
+        "android_client_info": {
+          "package_name": "com.example.blindgamefinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "522082885168-4egqjh774gp5f97bpjbgtses16jbufoc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJKGWFd-m6xt_69zBAWfdqgjs-x4_IO38"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "522082885168-4egqjh774gp5f97bpjbgtses16jbufoc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
